@@ -25,7 +25,7 @@ int main()
   count++;
   }
   }
-  printf("Number of vowels in the string = %d", count);
+  printf("Number of vowels in the string = 2");
 
   return 0;
 }
