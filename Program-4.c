@@ -15,11 +15,9 @@ int main()
     // Declare the required variables
     char str[1000];
     int i;
-    printf("Enter a string: ");
     scanf("%s",str);
     for(i=0; str[i]!='\0'; ++i);
-       printf("The length of string =" );
+       printf("The length of string = %d",i);
        //Complete the missing code in result printing statement
-       printf("%d",i);
     return 0;
 }
